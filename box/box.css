@@ -13,3 +13,9 @@
     /*指定方法（box2の周囲全てに枠線を設定する場合）*/
     border:5px solid yellow;
 }
+
+header {
+  width: 90%; /* 横幅90% */
+  padding: 15px 0;
+  margin: 0 auto;
+}
