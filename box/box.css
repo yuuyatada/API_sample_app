@@ -39,6 +39,8 @@ header {
 .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
+  background-image: url(potatoabout.jpg);
+  color: #fff; /* 文字色を白に変更 */
 }
 
 .main-visual-content {
