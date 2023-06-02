@@ -25,6 +25,10 @@ header {
   margin-left: 20px;
 }
 
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 .header h1 {
   font-size: 32px;
 }
