@@ -20,6 +20,10 @@ header {
   margin: 0 auto;
   text-align: center;
 }
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
 
 .header h1 {
   font-size: 32px;
