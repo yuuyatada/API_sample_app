@@ -3,7 +3,7 @@
   height: 50vh;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 .flex > div {
   background-color: #fff;
