@@ -3,7 +3,7 @@
   height: 50vh;
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .flex > div {
   background-color: #fff;
