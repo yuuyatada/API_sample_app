@@ -3,7 +3,7 @@
   height: 50vh;
   padding: 10px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 .flex > div {
   background-color: #fff;
