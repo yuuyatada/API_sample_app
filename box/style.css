@@ -11,18 +11,10 @@
   font-size: 30px;
 }
 
-.flex > div {
-  width: 300px;
+.flex {
+  display: flex;
+  /* flex-direction: row; */
 }
-.flex > div:nth-child(1) {
-  flex-shrink: 0;
-}
-.flex > div:nth-child(2) {
-  flex-shrink: 1;
-}
-.flex > div:nth-child(3) {
-  flex-shrink: 2;
-}
-.flex > div:nth-child(4) {
-  flex-shrink: 3;
+.flex > div{
+  flex-basis: 100px;
 }
