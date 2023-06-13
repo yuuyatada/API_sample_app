@@ -11,10 +11,14 @@
   font-size: 30px;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-}
-.flex > div{
-  flex-basis: 100px;
+.flex > div {
+  /* 単位がない数値を1つ指定 → flex-growに */
+  flex: 2;
+  /* 単位のある数値を1つ指定 → flex-basisに */
+  flex: 10em;
+  flex: 30%;
+  /* 単位がない数値を2つ指定 → flex-grow | flex-shrink に */
+  flex: 2 2;
+  /* 値を3つ指定する → 必ず flex-grow | flex-shrink | flex-basis に */
+  flex: 2 2 10%;
 }
