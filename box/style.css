@@ -11,6 +11,10 @@
   font-size: 30px;
 }
 
-.flex > div:nth-child(2) {
-  align-self: center;
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex > :first-child {
+  margin-right: auto;
 }
