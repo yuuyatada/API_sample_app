@@ -18,12 +18,23 @@
  # puts "#{fruit}は#{amount}個です。"
 #end
 
-i = 1
-while i <= 10 do
-  if i == 5
-    puts "処理を終了します"
-    break  # iが5になると繰り返しから抜ける
-  end
-  puts i
-  i += 1 # iの数値に1を加えたい時は、i = i +1と書く代わりに、i += 1と書くことができます。
-end
+#i = 1
+#while i <= 10 do
+ # if i == 5
+  #  puts "処理を終了します"
+   # break  # iが5になると繰り返しから抜ける
+  #end
+  #puts i
+  #i += 1 # iの数値に1を加えたい時は、i = i +1と書く代わりに、i += 1と書くことができます。
+#end
+
+
+puts "計算をはじめます"
+puts "2つの値を入力してください"
+
+a = gets.to_i
+b = gets.to_i
+
+puts "計算結果を出力します"
+puts "#{a}*#{b}=#{a * b}"
+puts "計算を終了します"
