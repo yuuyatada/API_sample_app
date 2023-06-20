@@ -9,6 +9,11 @@
   #puts dice
 #end
 
-for i in 1..6 do  # "1..6"は、1～6までの範囲を表す
-  puts i
+#for i in 1..6 do  # "1..6"は、1～6までの範囲を表す
+ # puts i
+#end
+
+amounts = {"リンゴ"=>2, "イチゴ"=>5, "オレンジ"=>3}
+amounts.each do |fruit, amount|  #ハッシュの内容を順にキーをfruit、値をamountに代入して繰り返す
+  puts "#{fruit}は#{amount}個です。"
 end
