@@ -1,5 +1,5 @@
 def greeting(name)
-  "Hello, #{name}!"  # この行のnameは、引数で渡すname
+ return "Hello, #{name}!"
    "Good morning, #{name}!"
 end
 
