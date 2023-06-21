@@ -4,4 +4,7 @@
 
 #puts "WEBCAMPでプログラミング学習".methods
 
-puts "webcamp".upcase
+#puts "webcamp".upcase
+#文字を大きくする
+
+puts "webcamp".downcase
