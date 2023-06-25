@@ -1,18 +1,34 @@
+#class Car
+  #def run(distance)
+    #puts "車で#{distance}キロ走ります。"
+  #end
+#end
+
+#class Bus < Car
+ # def run(distance)
+       super
+    puts "30人を乗せて、走っています。"
+ # end
+#end
+
+#bus = Bus.new
+#bus.run(5)
+
+#car = Car.new
+#car.run(5)
+
 class Car
   def run(distance)
     puts "車で#{distance}キロ走ります。"
   end
 end
 
-class Bus < Car
+class Truck < Car
   def run(distance)
-       super
-    puts "30人を乗せて、走っています。"
+    super
+    puts "大きな荷物を乗せて走ります。"
   end
 end
 
-bus = Bus.new
-bus.run(5)
-
-car = Car.new
-car.run(5)
+truck = Truck.new
+truck.run(5)
