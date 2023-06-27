@@ -17,3 +17,6 @@
     background-color: #efefef;
     color: blue;
 }
+.continer .lead{
+    text-decoration: line-through;
+}
