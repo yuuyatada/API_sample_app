@@ -16,6 +16,8 @@
     line-height: 40px;
     background-color: #efefef;
     color: blue;
+    cursor: pointer;
+
 }
 .continer .lead{
     text-decoration: line-through;
