@@ -19,6 +19,10 @@
     cursor: pointer;
 
 }
-.continer .lead{
+/*.continer .lead{
     text-decoration: line-through;
+}*/
+lead{
+    border-bottom: 1px solid #ccc;
+    width: 520px;
 }
