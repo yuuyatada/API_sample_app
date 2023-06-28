@@ -23,6 +23,6 @@
     text-decoration: line-through;
 }*/
 lead{
-    border-bottom: 1px solid #ccc;
-    width: 520px;
+   size: 30px;
+    line-height: 60px;
 }
