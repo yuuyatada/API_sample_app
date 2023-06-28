@@ -7,16 +7,31 @@
    </script>
     <link rel="stylesheet" href="practice.css" />
     <title>CSSの練習問題</title>
-     <style>
+     <!--style>
         .content{
             width: 500px;
             padding: 10px;
             background-color:#eee;
         }
+        </style-->
+          <style>
+        .content{
+            width: 500px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color:#fcfcfc;
+            -webkit-border-radius: 10px;  /* Safari,Google Chrome用 */  
+               -moz-border-radius: 10px;  /* Firefox用 */  
+                    border-radius: 10px;  /* CSS3草案 */  
+ 
+        }
+        section{
+            width: 550px;
+        }
         </style>
   </head>
   <body>
-      <div class = "practice1">
+      <!--div class = "practice1">
           <span>あめんぼあかいなあいうえお</span>
       </div>
       <div class = "practice2">
@@ -39,7 +54,7 @@
                 どちらかというと、お茶の水のほうが好みだ。
             </div>
         </div-->
-         <div class="continer">
+         <!--div class="continer">
             <div class="lead">Pythonでニューラルネットワーク</div>
             <div class="content">
                 Keras（ケラス）を利用する。
@@ -49,5 +64,25 @@
                 モンテカルロ木探索など覚えることは多いです。
                 活性化関数ってなんだー。
             </div>
+        </div-->
+         <div class="continer">
+            <section id="page1">
+                <div class="lead">確率的勾配降下法</div>
+                <div class="content">
+                    勾配降下法は統計学や機械学習で多く使われています。
+                    特に機械学習というのは基本的に何かしらの関数を最小化（最大化）する問題を数値解析的に解くことに帰結する場合が多いです。
+                    なので、基本的にはひたすら微分して0となるところを探す問題です。微分して0。
+                    で、その微分して0となる値は何か、をプログラムで解く場合に重要になるのがこの勾配降下法です。
+                    幾つか勾配法にも種類がありますがここでは最急降下法、確率的勾配降下法の２つを扱います。
+                </div>
+            </section>
+            <section id="page2">
+                <div class="lead">誤差逆伝搬法</div>
+                <div class="content">
+                    勾配降下法に基づいた各層各パラメータの更新量を、上位層側から得る値を利用した計算により得る方法である。
+                    従って、出力層での誤差関数等の値からパラメータの勾配降下量を計算し、入力層方向へ各層各パラメータの更新量を決める値を計算しながら逆方向へ伝搬させていく。
+                </div>
+            </section>
         </div>
+      
   </body>
