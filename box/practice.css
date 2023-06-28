@@ -31,5 +31,5 @@ lead{
     margin-left: 30px;
 }
 #page1{
-    float: right;
+    position: absolute;
 }
