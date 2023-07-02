@@ -61,14 +61,14 @@ font-size:small;
 text-align:center;
 }
 #wrap{
-background-color:pink;
-overflow:hidden;/*子要素を包囲する*/
-padding:10px 0;
+background-color:#000;/*今回は、ブラックを採用*/
+padding:0 10px;
+/*flexコンテナ*/
+display:flex;
+justify-content:space-between;/*余白を均等に空ける*/
+flex-wrap:wrap;/*改行を許可する*/
 }
- 
-.floatL{
-float:left;
-width:50%;
-padding:10px;
-box-sizing:border-box;/*paddingを含めても、50%にする*/
-}
+		
+section{
+width:49%;
+color:#fff;}
