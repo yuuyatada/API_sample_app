@@ -4,7 +4,17 @@ body {
   color: #333;
   font: 16px/1.8 sans-serif;
 }
+ nav ul{
+text-align:center;
+}
  
+nav li a{
+display:block;
+background-color:#640125;
+color:#fff;
+padding:10px;
+text-decoration:none;
+}
 /*画像の大きさを一旦100%にし、
 余分な余白を入れない-----------*/
 img{
@@ -72,3 +82,4 @@ flex-wrap:wrap;/*改行を許可する*/
 section{
 width:49%;
 color:#fff;}
+
