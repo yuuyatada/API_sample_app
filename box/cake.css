@@ -1,0 +1,62 @@
+body {
+/*フォントサイズを16px、(行間はフォントサイズの1.8倍)
+フォントの種類をゴシック体に設定-----------*/
+  color: #333;
+  font: 16px/1.8 sans-serif;
+}
+ 
+/*画像の大きさを一旦100%にし、
+余分な余白を入れない-----------*/
+img{
+width:100%;
+vertical-align:bottom;
+}
+ 
+header{
+text-align:center;
+}
+ 
+h1{
+background-color:#eee;
+font-size:0.7em;
+text-align:center;
+padding:2px;
+margin-bottom:20px;
+}
+ 
+h2{
+font-weight:bold;
+font-size:1.2em;
+}
+ 
+/*ロゴマーク配置-----------*/
+#logo{
+width:30%;/*大きさを制御する*/
+margin:auto;}
+ 
+/*「ようこそ」の部分-----------*/
+#info{
+border-top:solid 1px #eee;
+border-bottom:solid 1px #eee;
+text-align:center;
+margin:20px 0;}
+ 
+/*インフォメーション-----------*/
+.info{
+background-color:#52150A;
+padding:10px;
+color:#fff;
+}
+ 
+/*「いらっしゃいませ」のみ大きくする-----------*/
+.fsb01{font-size:1.5em;}
+ 
+/*footer -----------*/
+footer{
+background-color:#000;
+color:#FD14A9;
+margin:10px 0 0;
+padding:10px;
+font-size:small;
+text-align:center;
+}
